@@ -1,0 +1,156 @@
+{
+ "statusCode": 0,
+ "data": {
+  "statusMessage": "done successfully",
+  "cards": [
+   {
+    "card": {
+     "card": {
+      "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+      "id": "whats_on_your_mind",
+      "gridElements": {
+       "infoWithStyle": {
+        "info": [
+         {
+          "id": "x"
+         }
+        ]
+       }
+      }
+     }
+    }
+   },
+   {
+    "card": {
+     "card": {
+      "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+      "id": "top_brands_for_you",
+      "gridElements": {
+       "infoWithStyle": {
+        "restaurants": [
+         {
+          "info": {
+           "id": "5004",
+           "name": "Fictional Cafe",
+           "city": "1",
+           "slugs": {
+            "restaurant": "fictional-cafe-mg-road",
+            "city": "bangalore"
+           },
+           "areaName": "MG Road",
+           "locality": "MG Road Main Road",
+           "costForTwo": "₹300 for two",
+           "costForTwoMessage": "₹400 for two",
+           "cuisines": [
+            "Biryani",
+            "North Indian"
+           ],
+           "avgRating": 4.3,
+           "avgRatingString": "4.3",
+           "totalRatingsString": "1.2K+ ratings",
+           "sla": {
+            "deliveryTime": 28,
+            "lastMileTravel": 2.4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 MINS",
+            "lastMileTravelString": "2.4 km"
+           },
+           "availability": {
+            "opened": true
+           },
+           "isOpen": true
+          },
+          "cta": {
+           "link": "https://www.swiggy.com/city/bangalore/fictional-cafe-mg-road-rest5004"
+          }
+         }
+        ]
+       }
+      }
+     }
+    }
+   },
+   {
+    "card": {
+     "card": {
+      "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+      "id": "restaurant_grid_listing_v2",
+      "gridElements": {
+       "infoWithStyle": {
+        "restaurants": [
+         {
+          "info": {
+           "id": "5004",
+           "name": "Fictional Cafe",
+           "city": "1",
+           "slugs": {
+            "restaurant": "fictional-cafe-mg-road",
+            "city": "bangalore"
+           },
+           "areaName": "MG Road",
+           "locality": "MG Road Main Road",
+           "costForTwo": "₹300 for two",
+           "costForTwoMessage": "₹400 for two",
+           "cuisines": [
+            "Biryani",
+            "North Indian"
+           ],
+           "avgRating": 4.3,
+           "avgRatingString": "4.3",
+           "totalRatingsString": "1.2K+ ratings",
+           "sla": {
+            "deliveryTime": 28,
+            "lastMileTravel": 2.4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 MINS",
+            "lastMileTravelString": "2.4 km"
+           },
+           "availability": {
+            "opened": true
+           },
+           "isOpen": true
+          }
+         },
+         {
+          "info": {
+           "id": "5003",
+           "name": "Demo Veg Corner",
+           "city": "1",
+           "slugs": {
+            "restaurant": "demo-veg-corner-hsr-layout",
+            "city": "bangalore"
+           },
+           "areaName": "HSR Layout",
+           "locality": "HSR Layout Main Road",
+           "costForTwo": "25000",
+           "costForTwoMessage": "₹400 for two",
+           "cuisines": [
+            "Biryani",
+            "North Indian"
+           ],
+           "avgRating": 4.3,
+           "avgRatingString": "4.3",
+           "totalRatingsString": "1.2K+ ratings",
+           "sla": {
+            "deliveryTime": 28,
+            "lastMileTravel": 2.4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "25-30 MINS",
+            "lastMileTravelString": "2.4 km"
+           },
+           "availability": {
+            "opened": true
+           },
+           "isOpen": true,
+           "veg": true
+          }
+         }
+        ]
+       }
+      }
+     }
+    }
+   }
+  ]
+ }
+}

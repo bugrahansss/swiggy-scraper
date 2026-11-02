@@ -1,0 +1,201 @@
+{
+ "statusCode": 0,
+ "data": {
+  "statusMessage": "done successfully",
+  "cards": [
+   {
+    "groupedCard": {
+     "cardGroupMap": {
+      "DISH": {
+       "cards": [
+        {
+         "card": {
+          "card": {
+           "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.SearchFilterSortWidget"
+          }
+         }
+        },
+        {
+         "card": {
+          "card": {
+           "@type": "type.googleapis.com/swiggy.presentation.food.v2.DishGroup",
+           "restaurant": {
+            "info": {
+             "id": "5001",
+             "name": "Example Biryani House",
+             "city": "1",
+             "slugs": {
+              "restaurant": "example-biryani-house-koramangala",
+              "city": "bangalore"
+             },
+             "areaName": "Koramangala",
+             "locality": "Koramangala Main Road",
+             "costForTwo": "40000",
+             "costForTwoMessage": "₹400 for two",
+             "cuisines": [
+              "Biryani",
+              "North Indian"
+             ],
+             "avgRating": 4.3,
+             "avgRatingString": "4.3",
+             "totalRatingsString": "1.2K+ ratings",
+             "sla": {
+              "deliveryTime": 28,
+              "lastMileTravel": 2.4,
+              "serviceability": "SERVICEABLE",
+              "slaString": "25-30 MINS",
+              "lastMileTravelString": "2.4 km"
+             },
+             "availability": {
+              "opened": true
+             },
+             "isOpen": true,
+             "promoted": true
+            }
+           },
+           "dishes": [
+            {
+             "info": {
+              "id": "9001",
+              "name": "Paneer Dum Biryani",
+              "inStock": 1,
+              "isVeg": 1,
+              "description": "Paneer Dum Biryani, made in a fictional kitchen.",
+              "price": 24900,
+              "category": "Biryani",
+              "ratings": {
+               "aggregatedRating": {
+                "rating": "4.4",
+                "ratingCount": "210 ratings",
+                "ratingCountV2": "210"
+               }
+              },
+              "ribbon": {
+               "text": "Bestseller"
+              },
+              "variantsV2": {
+               "variantGroups": [
+                {
+                 "groupId": "g1",
+                 "name": "Size",
+                 "variations": [
+                  {
+                   "id": "v1",
+                   "name": "Half"
+                  },
+                  {
+                   "id": "v2",
+                   "name": "Full"
+                  }
+                 ]
+                }
+               ],
+               "pricingModels": [
+                {
+                 "variations": [
+                  {
+                   "groupId": "g1",
+                   "variationId": "v1"
+                  }
+                 ],
+                 "price": 24900
+                },
+                {
+                 "variations": [
+                  {
+                   "groupId": "g1",
+                   "variationId": "v2"
+                  }
+                 ],
+                 "price": 38900
+                }
+               ]
+              },
+              "imageId": "FIXTURE/9001.png"
+             }
+            },
+            {
+             "info": {
+              "id": "9002",
+              "name": "Chicken Dum Biryani",
+              "inStock": 1,
+              "isVeg": 0,
+              "description": "Chicken Dum Biryani, made in a fictional kitchen.",
+              "defaultPrice": 29950,
+              "category": "Biryani",
+              "ratings": {
+               "aggregatedRating": {
+                "rating": "4.1",
+                "ratingCount": "1500 ratings",
+                "ratingCountV2": "1500"
+               }
+              },
+              "imageId": "FIXTURE/9002.png"
+             }
+            }
+           ]
+          }
+         }
+        },
+        {
+         "card": {
+          "card": {
+           "@type": "type.googleapis.com/swiggy.presentation.food.v2.DishGroup",
+           "restaurant": {
+            "info": {
+             "id": "5002",
+             "name": "Sample Spice Kitchen",
+             "city": "1",
+             "slugs": {
+              "restaurant": "sample-spice-kitchen-indiranagar",
+              "city": "bangalore"
+             },
+             "areaName": "Indiranagar",
+             "locality": "Indiranagar Main Road",
+             "costForTwo": "40000",
+             "costForTwoMessage": "₹400 for two",
+             "cuisines": [
+              "Biryani",
+              "North Indian"
+             ],
+             "avgRating": 4.6,
+             "avgRatingString": "4.6",
+             "totalRatingsString": "320+ ratings",
+             "sla": {
+              "deliveryTime": 35,
+              "lastMileTravel": 4.1,
+              "serviceability": "SERVICEABLE",
+              "slaString": "32-37 MINS",
+              "lastMileTravelString": "4.1 km"
+             },
+             "availability": {
+              "opened": true
+             },
+             "isOpen": true
+            }
+           },
+           "dishes": [
+            {
+             "info": {
+              "id": "9101",
+              "name": "Hyderabadi Veg Biryani",
+              "inStock": 1,
+              "isVeg": 1,
+              "description": "Hyderabadi Veg Biryani, made in a fictional kitchen.",
+              "price": 21900,
+              "category": "Biryani",
+              "imageId": "FIXTURE/9101.png"
+             }
+            }
+           ]
+          }
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "statusCode": 0,
+ "data": {
+  "statusMessage": "done successfully",
+  "firstOffsetRequest": true,
+  "cards": [
+   {
+    "groupedCard": {
+     "cardGroupMap": {
+      "RESTAURANT": {
+       "cards": [
+        {
+         "card": {
+          "card": {
+           "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+           "info": {
+            "id": "5001",
+            "name": "Example Biryani House",
+            "city": "1",
+            "slugs": {
+             "restaurant": "example-biryani-house-koramangala",
+             "city": "bangalore"
+            },
+            "areaName": "Koramangala",
+            "locality": "Koramangala Main Road",
+            "costForTwo": "40000",
+            "costForTwoMessage": "₹400 for two",
+            "cuisines": [
+             "Biryani",
+             "North Indian"
+            ],
+            "avgRating": 4.3,
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1.2K+ ratings",
+            "sla": {
+             "deliveryTime": 28,
+             "lastMileTravel": 2.4,
+             "serviceability": "SERVICEABLE",
+             "slaString": "25-30 MINS",
+             "lastMileTravelString": "2.4 km"
+            },
+            "availability": {
+             "opened": true
+            },
+            "isOpen": true,
+            "promoted": true
+           }
+          }
+         }
+        },
+        {
+         "card": {
+          "card": {
+           "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+           "info": {
+            "id": "5002",
+            "name": "Sample Spice Kitchen",
+            "city": "1",
+            "slugs": {
+             "restaurant": "sample-spice-kitchen-indiranagar",
+             "city": "bangalore"
+            },
+            "areaName": "Indiranagar",
+            "locality": "Indiranagar Main Road",
+            "costForTwo": "40000",
+            "costForTwoMessage": "₹400 for two",
+            "cuisines": [
+             "Biryani",
+             "North Indian"
+            ],
+            "avgRating": 4.6,
+            "avgRatingString": "4.6",
+            "totalRatingsString": "320+ ratings",
+            "sla": {
+             "deliveryTime": 35,
+             "lastMileTravel": 4.1,
+             "serviceability": "SERVICEABLE",
+             "slaString": "32-37 MINS",
+             "lastMileTravelString": "4.1 km"
+            },
+            "availability": {
+             "opened": true
+            },
+            "isOpen": true
+           }
+          }
+         }
+        },
+        {
+         "card": {
+          "card": {
+           "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+           "info": {
+            "id": "5003",
+            "name": "Demo Veg Corner",
+            "city": "1",
+            "slugs": {
+             "restaurant": "demo-veg-corner-hsr-layout",
+             "city": "bangalore"
+            },
+            "areaName": "HSR Layout",
+            "locality": "HSR Layout Main Road",
+            "costForTwo": "25000",
+            "costForTwoMessage": "₹400 for two",
+            "cuisines": [
+             "Biryani",
+             "North Indian"
+            ],
+            "avgRating": 4.3,
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1.2K+ ratings",
+            "sla": {
+             "deliveryTime": 28,
+             "lastMileTravel": 2.4,
+             "serviceability": "SERVICEABLE",
+             "slaString": "25-30 MINS",
+             "lastMileTravelString": "2.4 km"
+            },
+            "availability": {
+             "opened": true
+            },
+            "isOpen": true,
+            "veg": true
+           }
+          }
+         }
+        },
+        {
+         "card": {
+          "card": {
+           "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+           "info": {
+            "id": "5001",
+            "name": "Example Biryani House",
+            "city": "1",
+            "slugs": {
+             "restaurant": "example-biryani-house-koramangala",
+             "city": "bangalore"
+            },
+            "areaName": "Koramangala",
+            "locality": "Koramangala Main Road",
+            "costForTwo": "40000",
+            "costForTwoMessage": "₹400 for two",
+            "cuisines": [
+             "Biryani",
+             "North Indian"
+            ],
+            "avgRating": 4.3,
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1.2K+ ratings",
+            "sla": {
+             "deliveryTime": 28,
+             "lastMileTravel": 2.4,
+             "serviceability": "SERVICEABLE",
+             "slaString": "25-30 MINS",
+             "lastMileTravelString": "2.4 km"
+            },
+            "availability": {
+             "opened": true
+            },
+            "isOpen": true,
+            "promoted": true
+           }
+          }
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ]
+ }
+}
